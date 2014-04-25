@@ -1,9 +1,6 @@
 neo4j-examples
 ==============
 
-#Neo4j-Examples
-
-
 #Create Gemfile
 
 touch Gemfile
