@@ -1,23 +1,23 @@
 neo4j-examples
 ==============
 
-#Create Gemfile
+##Create Gemfile
 
 touch Gemfile
 
-#Set the source
+##Set the source
 
 source 'https://rubygems.org'
 
-#Add neography gem
+##Add neography gem
 
 gem 'neography'
 
-#Run bundler
+##Run bundler
 
 bundle or bundle install
 
-#neo4j Install Method 1
+##neo4j Install Method 1
 
 sudo -s
 wget -O - http://debian.neo4j.org/neotechnology.gpg.key | apt-key add - 
@@ -26,7 +26,7 @@ apt-get update
 apt-get install neo4j
 neo4j start
 
-#neo4j Install Method 2
+##neo4j Install Method 2
 
 create new rails project by: rails new neo4j_examples
 use rakefiile and type:
